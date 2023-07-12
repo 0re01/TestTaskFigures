@@ -1,0 +1,12 @@
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\bin\Debug\net6.0\TestTaskFigures.deps.json
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\bin\Debug\net6.0\TestTaskFigures.dll
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\bin\Debug\net6.0\TestTaskFigures.pdb
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\TestTaskFigures.csproj.AssemblyReference.cache
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\TestTaskFigures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\TestTaskFigures.AssemblyInfoInputs.cache
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\TestTaskFigures.AssemblyInfo.cs
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\TestTaskFigures.csproj.CoreCompileInputs.cache
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\TestTaskFigures.dll
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\refint\TestTaskFigures.dll
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\TestTaskFigures.pdb
+C:\Users\a.khabibullin\Documents\Projects\TestTask\TestTaskFigures\obj\Debug\net6.0\ref\TestTaskFigures.dll

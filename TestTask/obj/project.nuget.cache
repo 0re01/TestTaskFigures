@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "1QB3rLqTwyilDyvIQOXLLbjzcsNhg9fjvhkZxvbDfJGNGC8mjkDkyn4PZJtXbuc9Sb7PnHJTWiXyMWC60+ZZpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a.khabibullin\\Documents\\Projects\\TestTask\\TestTask\\TestTask.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.bars.group/repository/svody_api/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.bars.group/repository/web-svody/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
