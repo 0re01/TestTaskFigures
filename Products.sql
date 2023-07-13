@@ -8,7 +8,7 @@ CREATE TABLE Product (
 CREATE TABLE Relation(
 	prodId int,
 	catId int,
-	--Constraint UniqueRelation Unique (prodId, catId)
+	Constraint UniqueRelation Unique (prodId, catId)
 );
 
 create table Category (
