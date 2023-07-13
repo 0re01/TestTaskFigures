@@ -41,7 +41,6 @@ public class FiguresTests
     public void IfNotRightTriangleCheckCorrectlyTest()
     {
         var supposedTriangle = Factory.GetFigure(3, 3, 4) as Triangle;
-        
         Assert.False(supposedTriangle.IsRightTriangle());
     }
     
@@ -66,7 +65,6 @@ public class FiguresTests
     private decimal[] GetRandomHeights(int count)
     {
         var rand = new Random();
-        
         var res = new decimal[count];
         for (var i = 0; i < count; i++)
         {
@@ -77,7 +75,7 @@ public class FiguresTests
     }
     
 
-    public static decimal NextDecimal(Random rng)
+    private decimal NextDecimal(Random rng)
     {
         byte scale = (byte) rng.Next(29);
         bool sign = rng.Next(2) == 1;

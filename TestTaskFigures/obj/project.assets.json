@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.khabibullin\\Documents\\Projects\\TestTask\\TestTaskFigures\\TestTaskFigures.csproj",
+      "projectUniqueName": "C:\\Users\\a.khabibullin\\Documents\\Github\\TestTaskFigures\\TestTaskFigures\\TestTaskFigures.csproj",
       "projectName": "TestTaskFigures",
-      "projectPath": "C:\\Users\\a.khabibullin\\Documents\\Projects\\TestTask\\TestTaskFigures\\TestTaskFigures.csproj",
+      "projectPath": "C:\\Users\\a.khabibullin\\Documents\\Github\\TestTaskFigures\\TestTaskFigures\\TestTaskFigures.csproj",
       "packagesPath": "C:\\Users\\a.khabibullin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.khabibullin\\Documents\\Projects\\TestTask\\TestTaskFigures\\obj\\",
+      "outputPath": "C:\\Users\\a.khabibullin\\Documents\\Github\\TestTaskFigures\\TestTaskFigures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
