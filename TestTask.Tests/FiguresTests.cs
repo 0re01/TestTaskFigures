@@ -1,5 +1,5 @@
-﻿using TestTaskFigures.Contracts.FactoryContracts;
-using TestTaskFigures.Exceptions;
+﻿using System;
+using TestTaskFigures.Contracts.FactoryContracts;
 using TestTaskFigures.Factories;
 using TestTaskFigures.Figures;
 using Xunit;
@@ -22,7 +22,7 @@ public class FiguresTests
         }
     }
     [Fact]
-    public void CreateCircleTest()
+    public void GetFigureCircleTest()
     {
         var supposedCircle = Factory.GetFigure(4);
         var typeOfFigure = supposedCircle.GetType();
@@ -30,7 +30,7 @@ public class FiguresTests
     }
     
     [Fact]
-    public void CreateTriangleTest()
+    public void GetFigureTriangle()
     {
         var supposedTriangle = Factory.GetFigure(3, 3, 4);
         var typeOfFigure = supposedTriangle.GetType();
@@ -38,21 +38,21 @@ public class FiguresTests
     }
     
     [Fact]
-    public void IfNotRightTriangleCheckCorrectlyTest()
+    public void IsRightTriangleFalseTest()
     {
         var supposedTriangle = Factory.GetFigure(3, 3, 4) as Triangle;
         Assert.False(supposedTriangle.IsRightTriangle());
     }
     
     [Fact]
-    public void IfRightTriangleCheckCorrectlyTest()
+    public void IsRightTriangleTrueTest()
     {
         var supposedTriangle = Factory.GetFigure(3, 5, 4) as Triangle;
         Assert.True(supposedTriangle.IsRightTriangle());
     }
 
     [Fact]
-    public void InvalidFigureException()
+    public void GetFigureNotSupportedExceptionThrownTest()
     {
         Assert.Throws<NotSupportedException>(() => Factory.GetFigure(GetRandomHeights(2)));
     }

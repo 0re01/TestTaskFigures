@@ -1,4 +1,6 @@
-﻿namespace TestTaskFigures.Exceptions;
+﻿using System;
+
+namespace TestTaskFigures.Exceptions;
 
 public class InvalidFigureArgsException : Exception
 {

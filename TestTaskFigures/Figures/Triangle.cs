@@ -1,4 +1,5 @@
-﻿using TestTaskFigures.Exceptions;
+﻿using System;
+using TestTaskFigures.Exceptions;
 
 namespace TestTaskFigures.Figures;
 

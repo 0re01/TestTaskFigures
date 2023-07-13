@@ -1,4 +1,5 @@
-﻿using TestTaskFigures.Contracts.FactoryContracts;
+﻿using System;
+using TestTaskFigures.Contracts.FactoryContracts;
 using TestTaskFigures.Figures;
 
 namespace TestTaskFigures.Factories;

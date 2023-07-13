@@ -1,3 +1,5 @@
+using System;
+
 namespace TestTaskFigures.Figures;
 
 public class Circle : IFigure
