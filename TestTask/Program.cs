@@ -1,10 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System;
-using TestTaskFigures.Contracts.FactoryContracts;
+﻿using TestTaskFigures.Contracts.FactoryContracts;
 using TestTaskFigures.Factories;
-
-Console.WriteLine("Hello, World!");
 
 var figure = GetFactory().GetFigure(4.5m, 6m, 7.5m);
 
