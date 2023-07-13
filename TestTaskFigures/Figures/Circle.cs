@@ -10,7 +10,7 @@ public class Circle : IFigure
     /// Конструктор окружности по радиусу
     /// </summary>
     /// <param name="radius">длина радиуса</param>
-    public Circle(decimal radius)
+    internal Circle(decimal radius)
     {
         _radius = radius;
     }

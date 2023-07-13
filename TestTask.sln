@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask", "TestTask\TestTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskFigures", "TestTaskFigures\TestTaskFigures.csproj", "{DBACACAF-5C03-404B-A75B-714DAEC6EA9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.Tests", "TestTask.Tests\TestTask.Tests.csproj", "{E7AD7A0D-3B8D-4CD6-9924-84F81CDA3D01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DBACACAF-5C03-404B-A75B-714DAEC6EA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBACACAF-5C03-404B-A75B-714DAEC6EA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBACACAF-5C03-404B-A75B-714DAEC6EA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AD7A0D-3B8D-4CD6-9924-84F81CDA3D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AD7A0D-3B8D-4CD6-9924-84F81CDA3D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AD7A0D-3B8D-4CD6-9924-84F81CDA3D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AD7A0D-3B8D-4CD6-9924-84F81CDA3D01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

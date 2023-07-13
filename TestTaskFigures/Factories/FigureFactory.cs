@@ -14,7 +14,7 @@ public class FigureFactory : IFigureFactory
             case 1:
                 return new Circle(sides[0]);
             case 3:
-                return new Triangle(new []{sides[0], sides[1], sides[2]});
+                return new Triangle(sides);
             default:
                 throw new NotSupportedException();
         }

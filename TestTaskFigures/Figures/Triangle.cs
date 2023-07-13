@@ -7,6 +7,9 @@ public class Triangle : IFigure
     private decimal[] Sides { get; }
 
     private readonly bool IsRight;
+    /// <summary>
+    /// Индекс длины гипотенузы гипотенузы
+    /// </summary>
     private readonly int HypoInd;
 
     /// <summary>
@@ -14,7 +17,7 @@ public class Triangle : IFigure
     /// </summary>
     /// <param name="sides">Набор длин сторон.</param>
     /// <exception cref="InvalidFigureArgsException">ИСключение выбрасывается в случае если передано некорректное количество сторон.</exception>
-    public Triangle(decimal[] sides)
+    internal Triangle(decimal[] sides)
     {
         if (sides.Length != 3)
         {
@@ -23,11 +26,7 @@ public class Triangle : IFigure
 
         Sides = sides;
 
-        HypoInd = sides[0] >= sides[1]
-            ? (sides[0] > sides[2] ? 0 : 2)
-            : (sides[1] > sides[2] ? 1 : 2);
-
-        var comparingOneIndex = sides[0] >= sides[1] ? 1 : 0;
+        var comparingOneIndex = sides[0] >= sides[1] ? 0 : 1;
 
         HypoInd = sides[comparingOneIndex] > sides[2] ? comparingOneIndex : 2;
 
@@ -53,6 +52,15 @@ public class Triangle : IFigure
             GetAngleBetweenSidesByThreeSides(Sides[1], Sides[2], Sides[0]),
             GetAngleBetweenSidesByThreeSides(Sides[0], Sides[2], Sides[1]),
         };
+    }
+
+    /// <summary>
+    /// Метод проверки треугольника на наличие прямого угла.
+    /// </summary>
+    /// <returns></returns>
+    public bool IsRightTriangle()
+    {
+        return IsRight;
     }
 
     /// <summary>
